@@ -1,25 +1,24 @@
-import Ex06 from "./Ex06"
-import Ex07 from "./Ex07"
-import Ex08 from "./Ex08"
-import Exersice01 from "./Exersice01"
-import Exersice04 from "./Exersice04"
-import Exersice05 from "./Exersice05"
-import Notification from "./Notification"
-import React from "./React"
+import Clock from "./Session15/Clock"
+import Ex01 from "./Session15/Ex01"
+import Ex02 from "./Session15/Ex02"
+import Ex03 from "./Session15/Ex03"
+import Ex04 from "./Session15/Ex04"
+import Ex05 from "./Session15/Ex05"
+import ListPost from "./Session15/ListPost"
 
 function App() {
 
 
   return (
     <>
-      <Exersice01 />
-      <Notification />
-      <React />
-      <Exersice04 />
-      <Exersice05 />
-      <Ex06 />
-      <Ex07 />
-      <Ex08 />
+      <Ex01 />
+      <Ex02 />
+      <Ex03 />
+      <Ex04 />
+      <Ex05 />
+      <ListPost />
+      <Clock />
+
     </>
   )
 }
