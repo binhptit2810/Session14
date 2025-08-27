@@ -1,10 +1,11 @@
-import Button from "./Session16/Button"
-import ClickCounter from "./Session16/ClickCounter"
-import LoginStatus from "./Session16/LoginStatus"
-import ProductList from "./Session16/ProductList"
-import SubjectList from "./Session16/SubjectList"
-import ThemeSwitcher from "./Session16/ThemeSwitcher"
-import UserForm from "./Session16/UserForm"
+import ChangeColor from "./Session17/ChangeColor"
+import Checkbox from "./Session17/Checkbox"
+import CountText from "./Session17/CounText"
+import Ex01 from "./Session17/Ex01"
+import Ex02 from "./Session17/Ex02"
+import Form from "./Session17/Form"
+import Select from "./Session17/Select"
+import Toggle from "./Session17/Toggle"
 
 
 function App() {
@@ -12,13 +13,15 @@ function App() {
 
   return (
     <>
-      <SubjectList />
-      <LoginStatus />
-      <Button />
-      <ClickCounter />
-      <UserForm />
-      <ThemeSwitcher />
-      <ProductList />
+      <Ex01 />
+      <Ex02 />
+      <ChangeColor />
+      <Toggle />
+      <Form />
+      <CountText />
+      <Select />
+      <Checkbox />
+
 
     </>
   )
